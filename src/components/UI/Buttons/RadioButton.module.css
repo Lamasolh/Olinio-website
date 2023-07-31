@@ -1,0 +1,26 @@
+.generalInfo {
+  margin-bottom: 4rem;
+}
+
+.generalInfo h3 {
+  font-size: 1.1rem;
+  font-weight: 400;
+  font-family: "roboto", sans-serif;
+  margin-bottom: 2rem;
+}
+.inputs {
+  display: flex;
+  gap: 6rem;
+}
+.inputs label {
+  font-size: 1.1rem;
+}
+.inputs input {
+  accent-color: #17a1bd;
+  transform: scale(2.4);
+  border: 1px solid #17a1bd;
+}
+.input__container {
+  display: flex;
+  gap: 1rem;
+}

@@ -1,0 +1,96 @@
+.login_form {
+  padding: 0rem 10rem;
+  flex-basis: 50%;
+}
+
+.app {
+  height: 2000px
+}
+
+#dark {
+  background-color: dark;
+}
+
+#light {
+  background-color: white;
+}
+
+#dark .login_form {
+  background-color: black;
+}
+
+@media (max-width: 1200px) {
+  .login_form {
+    margin: 4rem auto;
+    flex-basis: 50%;
+    padding: 0 5rem;
+  }
+}
+
+@media (max-width: 1050px) {
+  .login_form {
+    margin: 2rem auto;
+    flex-basis: 50%;
+    padding: 0 5rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .login_form {
+    flex-basis: 100%;
+  }
+}
+
+.login_form h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #17a1bd;
+}
+
+.button {
+  margin: 4rem 0 2.5rem;
+}
+
+.login_form .hr {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  color: #a6a0a0;
+  font-size: 1rem;
+  font-weight: 500;
+  position: relative;
+  margin: 0 0 3rem 0;
+}
+
+.login_form .hr::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 45%;
+  width: 45%;
+  height: 2px;
+  background-color: #c5c5c5;
+}
+
+.login_form .hr::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 45%;
+  width: 45%;
+  height: 2px;
+  background-color: #c5c5c5;
+}
+
+.signup {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+  text-align: center;
+  color: grey;
+}
+
+.signup a {
+  text-decoration: none;
+  color: #6e4e99;
+}
